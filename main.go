@@ -1,11 +1,10 @@
 package main
 
 import (
-	_ "github.com/ironxu/restgo/routers"
 	"github.com/astaxie/beego"
+	_ "github.com/ironxu/restgo/routers"
 )
 
 func main() {
 	beego.Run()
 }
-
