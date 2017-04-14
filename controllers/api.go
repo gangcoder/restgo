@@ -9,6 +9,5 @@ type ApiController struct {
 }
 
 func (c *ApiController) Get() {
-	c.Ctx.WriteString("api")
-	//c.TplName = "index.tpl"
+	c.TplName = "api/index.tpl"
 }
